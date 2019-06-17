@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Accouont Opener",
+  "description": "One click to open your account",
+  "version": "1.0.0",
+  "icons": { "128": "logo_128.png" },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
